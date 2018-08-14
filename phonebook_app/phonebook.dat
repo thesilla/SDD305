@@ -1,0 +1,5 @@
+a:4:{s:4:"Name";s:8:"John Doe";s:7:"Address";a:4:{s:6:"Street";s:11:"123 Main St";s:4:"City";s:5:"Dover";s:5:"State";s:2:"DE";s:3:"Zip";s:5:"19904";}s:5:"Phone";s:12:"555-555-1234";s:5:"Email";s:16:"john@example.com";}
+a:4:{s:4:"Name";s:8:"Jane Doe";s:7:"Address";a:4:{s:6:"Street";s:11:"123 Main St";s:4:"City";s:5:"Dover";s:5:"State";s:2:"DE";s:3:"Zip";s:5:"19904";}s:5:"Phone";s:12:"555-555-5678";s:5:"Email";s:16:"jane@example.com";}
+a:4:{s:4:"Name";s:15:"Jonny Appleseed";s:7:"Address";a:4:{s:6:"Street";s:15:"1 Infinite Loop";s:4:"City";s:10:"Coopertino";s:5:"State";s:2:"CA";s:3:"Zip";s:5:"90201";}s:5:"Phone";s:12:"555-555-9101";s:5:"Email";s:15:"jonny@apple.com";}
+a:4:{s:4:"Name";s:12:"Jack Sparrow";s:7:"Address";a:4:{s:6:"Street";s:15:"The Black Pearl";s:4:"City";s:17:"Cut Throat Island";s:5:"State";s:7:"Tortuga";s:3:"Zip";s:5:"00001";}s:5:"Phone";s:12:"555-555-1213";s:5:"Email";s:14:"jack@savvy.com";}
+a:4:{s:4:"Name";s:14:"Luke Skywalker";s:7:"Address";a:4:{s:6:"Street";s:15:"17 Jedi Council";s:4:"City";s:8:"Corasant";s:5:"State";s:2:"XX";s:3:"Zip";s:5:"99999";}s:5:"Phone";s:12:"555-555-1415";s:5:"Email";s:17:"luke@theforce.com";}

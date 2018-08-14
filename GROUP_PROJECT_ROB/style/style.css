@@ -1,0 +1,160 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {display: block;}
+.row {
+    clear: both;
+    max-width: 1040px;
+    margin: 0 auto;
+}
+
+[class^="col-"] {
+    float: left;
+    margin: 0 3.84615384615% 0 0;
+    list-style: none;
+    position: relative;
+}
+
+[class^="col-"]:last-child {
+    margin: 0;
+}
+
+.col-1 { width: 4.8076923077% }
+.col-2 { width: 13.4615384615% }
+.col-3 { width: 22.1153846154% }
+.col-4 { width: 30.7692307692% }
+.col-5 { width: 39.4230769231% }
+.col-6 { width: 48.0769230769% }
+.col-7 { width: 56.7307692308% }
+.col-8 { width: 65.3846153846% }
+.col-9 { width: 74.0384615385% }
+.col-10 { width: 82.6923076923% }
+.col-11 { width: 91.3461538462% }
+.col-12 { width: 100%; margin: 0 }
+body{
+    background-color: rgba(199, 199, 199, 0.897); 
+}
+.wrapper{
+    height: 100%;
+    background-color: transparent;
+    border: 1px solid black; 
+     margin: auto;    
+    margin-top: 50px;  
+    width: 1000px; 
+}
+#toprow{
+    width: 1000px;
+    height: 100px; 
+    font-size: 40px; 
+    font-weight: bolder; 
+    color: rgb(0, 0, 114);
+    background-color: beige;
+    text-align: center; 
+
+}
+#middlerow{
+width: 1000px;
+min-height: 500px;
+height: auto; 
+font-size: 14px; 
+color: black;
+background-color:rgb(240, 238, 238);
+}
+
+#leftcolumn{
+    visibility: hidden;
+}
+
+#middlecolumn{
+    border: 1pt dashed red;
+    margin: auto; 
+    margin-top: 50px; 
+
+}
+
+#rightcolumn{
+visibility: hidden; 
+}
+
+#userform{
+    color: darkblue;
+    font-weight: bolder; 
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px; 
+}
+table, tr, td {
+    width: 100%; 
+}
+tr, td{
+    height: 75px; 
+}
+
+#submit{
+    background: white; 
+    margin: auto;
+    font-weight: bolder; 
+    font-size: 25px;    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 75px; 
+    width: 250px; 
+    border: .5px solid red; 
+}
+#consentbutton{
+    background: white; 
+    font-weight: bolder; 
+    font-size: 25px;    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 75px; 
+    width: 250px; 
+    border: .5px solid red; 
+}
+#viewall{
+    background: white; 
+    font-weight: bolder; 
+    font-size: 25px;    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 75px; 
+    width: 250px; 
+    border: .5px solid red; 
+}
+input, select{
+    width: 225px; 
+    height: 40px; 
+    font-size:16px; 
+    margin: auto; 
+}
+
+h1{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+h2{
+     text-align: center;
+    font-size: 16px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+h6{
+    font-size: 8px; 
+    text-align:center; 
+}

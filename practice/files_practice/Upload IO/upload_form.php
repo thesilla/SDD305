@@ -11,7 +11,6 @@ print "<div> Second File Name: " . basename($_FILES["fileToUpload2"]["name"]) . 
 print "<div> Target File: " . $target_file . " </div>";
 
 
-
 $uploadOk = 1;
 $imageFileType = strtolower(pathinfo($target_file,PATHINFO_EXTENSION));
 print "<div> Image File Type: " . $imageFileType . " </div>";

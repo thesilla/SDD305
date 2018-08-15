@@ -1,0 +1,146 @@
+body {
+	background-color: #fcfae8;
+
+
+}
+
+.success {
+
+	margin-top: 50px;
+	margin-bottom: auto;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;
+	width: 50%;
+
+	background-color: green;
+	color: white;
+	text-align: center;
+	font: 18pt Lucida Sans Unicode;
+	border: 2pt solid black;
+	border-radius: 20px;
+	box-shadow: 2px 2px black;
+
+
+
+}
+
+
+.error {
+
+	color: red;
+	background-color:  yellow;
+	margin: auto;
+	border: 2pt black;
+	display: block;
+	padding: 5px;
+	font: 18pt "Lucida Grande", "Lucida Sans Unicode", verdana, geneva, sans-serif;
+	text-align: center;
+	margin: auto;
+	border-radius: 20px;
+	border: 2pt solid red;
+	box-shadow: 2px 2px black;
+
+
+}
+
+.required {
+
+	color: red;
+
+}
+
+.rl {
+
+	color: red;
+	display: block;
+	margin: auto;
+	font-size: 8pt;
+	text-align: center;
+
+}
+
+
+
+
+.form {
+
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	margin-bottom: auto;
+
+
+	
+	background: linear-gradient(to bottom, #e3ecf9, #cadbf7);
+	padding: 20px;
+	font: 14pt Lucida Grande;
+	border-radius: 30px;
+
+	font-weight: bold;
+
+	box-shadow: 5px 5px 20px;
+	box-sizing: border-box;
+
+
+}
+
+
+input[type="text"] {
+
+	padding: 7px;
+	margin-top: 5px;
+	width: 95%;
+	margin-left: 10px;
+	margin-right: 10px;
+
+	/* remember to use this in forms*/
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+    border-radius: 7px;
+
+
+}
+
+
+input[type="submit"] {
+
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 50px;
+	padding-right: 50px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	font: 15pt verdana  ;
+ 	cursor: pointer;
+
+
+}
+
+
+input[type="submit"]:hover {
+
+	background-color: grey;
+
+
+}
+
+
+
+
+.select {
+
+	margin-top: 10px;
+	
+}
+
+h1 {
+
+	text-align: center;
+	font: 25pt verdana ;
+	font-weight: bold;
+
+}

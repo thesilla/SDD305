@@ -16,7 +16,7 @@
 	<meta charset = "utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" >
-    <link rel="stylesheet" href="css/RHstyles.css"> <!-- css/styles.css -->
+    <link rel="stylesheet" href="css/styles.css">
 
 
 
@@ -28,7 +28,7 @@
 
 
 <div>
- <!--<h1> Study Participant Application </h1> -->
+<h1> Study Participant Application </h1>
 <?php
 // THIS PAGE IS THE MEAT OF IT ALL
 // Pulls together all included files
@@ -45,8 +45,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST'){
 	$name = trim(htmlspecialchars($_POST['name']));
 	$date = trim(htmlspecialchars($_POST['date']));
 	$time = trim(htmlspecialchars($_POST['time']));
-	$phone =  trim(htmlspecialchars($_POST['phone']));
-	
 
 	// set error indicator to FALSE
 	$problem = FALSE;

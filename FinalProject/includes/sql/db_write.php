@@ -5,8 +5,13 @@
 
 	if ($dbc){
 
+		// create user timestamp
+		$timestamp = date('Y-m-d G:i:s');
+		// create status string variable
+		$status = "REGISTERED";
+
 		// Insert Data in db - write query
-		$s = "INSERT INTO `participants`(`email`, `fullname`, `date_entered`, `time_entered`) VALUES ('$email','$name','$date','$time')";
+		$s = "INSERT INTO `consents`(`Email`, `InterviewDate`, `InterviewTime`, `ParticipantName`,`DateConsented`,`Phone`,`Status`) VALUES ('$email','$date','$time','$name', '$phone', '$status', '$timestamp')";
 
 		// run query. Data will be entered into database
 		mysqli_query($dbc, $s);

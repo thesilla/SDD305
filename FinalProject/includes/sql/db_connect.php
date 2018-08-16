@@ -1,9 +1,10 @@
 <?php
 
+			// set connection variables
 			$servername = "localhost";
-			$username = "root";
-			$password = "";
-			$dbName = "surveydb";
+			$username = "phpuser";
+			$password = "sdd305";
+			$dbName = "participantconsent";
 
 
 			// Create connection

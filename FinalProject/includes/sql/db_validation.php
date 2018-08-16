@@ -18,7 +18,7 @@ if ($dbc) {
 
 
 
-	$sql = "SELECT * FROM participants";
+	$sql = "SELECT * FROM consents";
 
 	if ($result = mysqli_query($dbc, $sql)){
 			
@@ -31,7 +31,7 @@ if ($dbc) {
 
 
 			// check to see if email already registered
-			 if (strcmp($row['email'], $email) ==0){
+			 if (strcmp($row['Email'], $email) ==0){
 
 
 			 	$email_error = TRUE;
@@ -45,7 +45,7 @@ if ($dbc) {
 
 
 			 // check to see if name already registered
-			 if (strcmp($row['fullname'], $name) ==0){
+			 if (strcmp($row['ParticipantName'], $name) ==0){
 
 			 	$name_error= TRUE;
 			 	$problem = TRUE;
@@ -53,9 +53,9 @@ if ($dbc) {
 			 }
 
 			 // change date to Unix time stamp for comparing
-			 $datevar =  strtotime($row['date_entered']);
+			 $datevar =  strtotime($row['InterviewDate']);
 			 
-			 $timevar =  strtotime($row['time_entered']);
+			 $timevar =  strtotime($row['InterviewTime']);
 			 
 
 

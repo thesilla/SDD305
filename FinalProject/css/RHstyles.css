@@ -7,11 +7,11 @@
       .base-form {
         font-family: sans-serif;
         font-size: 16px;
-        max-width: 400px;
+        width: 400px;
         margin: 100px auto;
         box-shadow: 0 0 4px #6f2d91;
-        border-radius: 2px;
-        color: #6f2d91;
+        border-radius: 100px;
+        color: #6f2d91; 
         padding-bottom: 16px;
       }
       .base-form .form-title {
@@ -33,10 +33,11 @@
       .base-form .form-control {
         flex: 1;
       }
-      .base-form .form-error {
-        color: #ff6262;
-        font-size: 14px;
+     .base-form .error {
+        color: red;
+        font-size: 64pt;
         font-style: italic;
+        padding: 35px;
       }
       .base-form .form-input {
         max-width: 100%;

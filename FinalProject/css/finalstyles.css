@@ -1,0 +1,277 @@
+
+/*
+* {
+        box-sizing: border-box;
+      } */
+
+body {
+      background-image: url('../graphics/purpletint.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+     /* opacity:0.2; */
+      
+}
+
+#backbutton {
+
+  margin: auto;
+  padding: 7px;
+  text-align: center;
+  font-size: 11pt;
+
+}
+
+.inner {
+
+  padding: 20px;
+  margin: 20px;
+
+
+}
+
+.required {
+
+color: red;
+text-decoration: italic;
+text-align:center;
+
+
+}
+
+h1 {
+  text-align: center;
+  font-size: 24pt;
+  color: #e26ded;
+
+
+}
+
+
+
+      .base-form {
+        background-color: white;
+        font-family: sans-serif;
+        font-size: 16px;
+        
+        width: 500px;
+        
+        margin: 40px auto;
+        box-shadow: 10px 10px 40px #000;
+        border-radius: 20px;
+        color: #6f2d91; 
+        padding-bottom: 16px;
+      }
+      .base-form .form-title {
+        padding: 16px;
+        font-family: 'Verdana';
+        text-align: center;
+        font-size: 24pt;
+        background-color: #6f2d91;
+        color: white;
+        border-top-left-radius: inherit;
+        border-top-right-radius: inherit;
+      }
+
+
+      .base-form .form-row {
+        /*display: flex; */
+        align-items: center;
+        padding: 16px 16px 0 16px;
+      }
+      .base-form .form-label {
+        /*flex: 1; */
+
+        text-align: right;
+        padding: 10px;
+      }
+
+      .base-form .form-label2 {
+        /*flex: 1; */
+        text-align: center;
+        padding: 10px;
+      }
+      .base-form .form-control {
+       /* flex: 0; 
+        display: inline-block;*/
+
+      }
+     .base-form .error {
+        color: red;
+        font-size: 10pt;
+        font-style: italic;
+        padding: 10px;
+        margin: auto;
+        text-align: center;
+
+      }
+      .base-form .form-input {
+        width: 95%;
+        font-family: inherit;
+        font-size: inherit;
+        color: inherit;
+        border: 1px solid #6f2d91;
+        border-radius: 2px;
+        padding: 4px 8px;
+        outline: none;
+      }
+      .base-form .form-input:focus {
+        box-shadow: 0 0 2px #6f2d91;
+      }
+      .base-form .form-link {
+        color: #6f2d91;
+        text-decoration: underline;
+        cursor: pointer;
+        font-weight: bold;
+        text-align: center;
+      }
+
+      .admin {
+
+        text-align: center;
+        color: orange;
+        font-weight: bold;
+
+      }
+      
+      .base-form .form-button {
+        background-color: #6f2d91;
+        padding: 8px 16px;
+        color: white;
+        border: 0;
+        border-radius: 2px;
+        outline: none;
+        cursor: pointer;
+        font-size: inherit;
+      }
+
+      .base-form .form-button:focus {
+        box-shadow: 0 0 2px #6f2d91;
+      }
+
+      .base-form .form-button:hover {
+        background-color: grey;
+      }
+
+
+      .base-form .form-actions {
+        text-align: center;
+      }
+
+      .form-row .form-actions {
+        display: inline-block;
+        text-align: center;
+      }
+
+      .admin-master {
+        background-color: white;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+        border: 1pt solid purple;
+        border-radius: 20pt;
+        box-shadow: 10px 10px 40px #000;
+      }
+
+
+
+      .admin-inside {
+
+        background-color: white;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        margin-bottom:50px;
+        overflow: hidden;
+       
+
+        
+
+      }
+
+
+      .largetext {
+
+        padding: 16px;
+        font-family: 'Verdana';
+        text-align: center;
+        font-size: 24pt;
+        background-color: #6f2d91;
+        color: white;
+        border-top-left-radius: inherit;
+        border-top-right-radius: inherit;
+
+
+
+      }
+
+      .logout {
+
+        margin-top: 5px;
+        margin-bottom: 5px;
+        margin-left:auto;
+        margin-right:auto;
+        font-size: 20pt;
+        text-align: center;
+        padding: 5px;
+
+
+      }
+
+      table {
+        
+
+        margin-top: 50px;
+        margin-bottom: 50px;
+        margin-left: auto;
+        margin-right: auto;
+
+      }
+      th {
+
+      background-color: #6f2d91;
+      font-size: 16pt;
+      border: solid black;
+      padding: 5px;
+      color: white;
+
+
+      }
+
+      tr {
+
+       
+
+
+      }
+
+      td {
+
+        padding: 5px;
+
+        
+      }
+
+
+
+      .results {
+
+        border: 1pt solid black;
+
+      }
+
+
+      .confirm {
+
+        background-color: white;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+
+
+
+      }

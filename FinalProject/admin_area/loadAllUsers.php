@@ -4,23 +4,27 @@
 
 
 
-//include 'includes/sql/db_connect.php';
+include '../includes/sql/db_connect.php';
 //include '../includes/db.inc.php';
 
-$sql = "SELECT * FROM participants";
+$sql = "SELECT * FROM consents";
 
 if ($result = mysqli_query($dbc, $sql)){
 		print '<table class = "results">';
-		print "<tr><th> ID </th> <th> Email </th> <th> Full Name </th> <th> Date </th> <th> Time </th></tr>";
+		print "<tr><th> ID </th> <th> Email </th> <th> Interview Date </th> <th> Interview Time </th> <th> Name </th><th>Phone</th><th>Status</th><th>Date Consented</th></tr>";
 	while($row = mysqli_fetch_array($result)){
 
 
 		print "<tr>";
-		print "<td>" . $row['id'] . "</td>";
-		print "<td>" . $row['email'] . "</td>";
-		print "<td>" . $row['fullname'] . "</td>";
-		print "<td>" . $row['date_entered'] . "</td>";
-		print "<td>" . $row['time_entered'] . "</td>";
+		print "<td>" . $row['ID'] . "</td>";
+		print "<td>" . $row['Email'] . "</td>";
+		print "<td>" . $row['InterviewDate'] . "</td>";
+		print "<td>" . $row['InterviewTime'] . "</td>";
+		print "<td>" . $row['ParticipantName'] . "</td>";
+
+		print "<td>" . $row['Phone'] . "</td>";
+		print "<td>" . $row['Status'] . "</td>";
+		print "<td>" . $row['DateConsented'] . "</td>";
 
 
 	}
@@ -42,7 +46,7 @@ echo "</table>";
 
 */
 // Free result set
-mysqli_free_result($result);
+//mysqli_free_result($result);
 
 mysqli_close($dbc);
 

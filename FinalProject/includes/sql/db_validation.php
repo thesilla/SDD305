@@ -34,8 +34,10 @@ if ($dbc) {
 			 if (strcmp($row['Email'], $email) ==0){
 
 
-			 	$email_error = TRUE;
+			 	$errorcodes['dbemail'] = 1;
+				$errorcodes['noerror'] = 0;
 			 	$problem = TRUE;
+			
 
 			 	//print $row['email'] . " - " . $email;
 			 	//print "email_error AFTER: " . $email_error;
@@ -47,8 +49,11 @@ if ($dbc) {
 			 // check to see if name already registered
 			 if (strcmp($row['ParticipantName'], $name) ==0){
 
-			 	$name_error= TRUE;
+			 	
 			 	$problem = TRUE;
+			 	$errorcodes['dbname'] = 1;
+				$errorcodes['noerror'] = 0;
+			 	
 			 	//print $row['fullname'] . " " . $name;
 			 }
 
@@ -69,8 +74,11 @@ if ($dbc) {
 			 	if ($timevar == $timeConv){
 
 			 		
-			 		$time_error = TRUE;
+			 		
+			 		$errorcodes['dbdate'] = 1;
+					$errorcodes['noerror'] = 0;
 			 		$problem = TRUE;
+			 		
 
 			 	}
 			 }
@@ -78,20 +86,7 @@ if ($dbc) {
 
 	
 
-		if ($email_error){
-
-			print  '<div class = "error"> EMAIL ALREADY REGISTERED. Please use a different email. </div>';
-		}
-
-		if ($name_error){
-
-			print '<div class = "error">NAME ALREADY REGISTERED. Please pick a different name. </div>';
-		}
-			 
-		if ($time_error){
-
-			print '<div class = "error">  ERROR: Time slot already chosen for ' . $date . " @ " . $time . "</div>";
-		}
+	
 		
 	}
 
